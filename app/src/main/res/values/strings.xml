@@ -2,4 +2,40 @@
     <string name="app_name">informationbook</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+        <!-- Main Activity -->
+        <string name="main_title">The Information Book App</string>
+        <string name="card_countries_title">The Countries</string>
+        <string name="card_leaders_title">The leaders</string>
+        <string name="card_museums_title">The museums</string>
+        <string name="card_wonders_title">Seven Wonders of The World</string>
+
+        <!-- Countries Activity -->
+        <string name="countries_title">Countries</string>
+        <string name="country_uk">United Kingdom</string>
+        <string name="country_france">France</string>
+        <string name="country_italy">Italy</string>
+
+        <!-- Leaders Activity -->
+        <string name="leaders_title">World Leaders</string>
+        <string name="leader_biden">Joe Biden</string>
+        <string name="leader_macron">Emmanuel Macron</string>
+        <string name="leader_meloni">Giorgia Meloni</string>
+
+        <!-- Museums Activity -->
+        <string name="museums_title">Famous Museums</string>
+        <string name="museum_louvre">Louvre</string>
+        <string name="museum_british">British Museum</string>
+        <string name="museum_vatican">Vatican Museums</string>
+
+        <!-- Wonders Activity -->
+        <string name="wonders_title">Seven Wonders</string>
+        <string name="wonder_machu_picchu">Machu Picchu</string>
+        <string name="wonder_chichen_itza">Chichen Itza</string>
+        <string name="wonder_colosseum">Colosseum</string>
+
+        <!-- Loading Messages -->
+        <string name="loading_country">Loading country information...</string>
+        <string name="loading_leader">Loading leader information...</string>
+        <string name="loading_museum">Loading museum information...</string>
+        <string name="loading_wonder">Loading wonder information...</string>
 </resources>

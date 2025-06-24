@@ -3,7 +3,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="#F5F5F5">
+    android:background="#F5F5F5"
+    android:fitsSystemWindows="true">
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
@@ -11,7 +12,7 @@
         android:layout_height="?attr/actionBarSize"
         android:background="#6A4C93"
         android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
-        android:title="The Information Book App"
+        android:title="@string/main_title"
         android:titleTextColor="@android:color/white" />
 
     <GridLayout
@@ -52,10 +53,10 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="The Countries"
+                    android:text="@string/card_countries_title"
                     android:textSize="16sp"
                     android:textStyle="bold"
-                    android:textColor="#333333" />
+                    android:textColor="#333333"/>
 
             </LinearLayout>
 
@@ -71,8 +72,7 @@
             android:clickable="true"
             android:focusable="true"
             android:foreground="?android:attr/selectableItemBackground"
-            app:cardCornerRadius="12dp"
-            app:cardElevation="4dp">
+            >
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -90,7 +90,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="The leaders"
+                    android:text="@string/card_leaders_title"
                     android:textSize="16sp"
                     android:textStyle="bold"
                     android:textColor="#333333" />
@@ -109,8 +109,7 @@
             android:clickable="true"
             android:focusable="true"
             android:foreground="?android:attr/selectableItemBackground"
-            app:cardCornerRadius="12dp"
-            app:cardElevation="4dp">
+            >
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -128,7 +127,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="The museums"
+                    android:text="@string/card_museums_title"
                     android:textSize="16sp"
                     android:textStyle="bold"
                     android:textColor="#333333" />
@@ -147,8 +146,7 @@
             android:clickable="true"
             android:focusable="true"
             android:foreground="?android:attr/selectableItemBackground"
-            app:cardCornerRadius="12dp"
-            app:cardElevation="4dp">
+            >
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -166,7 +164,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Seven Wonders of The World"
+                    android:text="@string/card_wonders_title"
                     android:textSize="16sp"
                     android:textStyle="bold"
                     android:textColor="#333333"
